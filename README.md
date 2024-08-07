@@ -35,6 +35,7 @@ Admin:
 2. Create Subjects 
 3. Get the Number of Students
 4. Get all the subject with all studnets enrolled in each subject
+   
 Student:
 1. Create Student Account(by signup)
 2. get the number of subjects available
