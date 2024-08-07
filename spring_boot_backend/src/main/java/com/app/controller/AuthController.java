@@ -121,7 +121,7 @@ public class AuthController {
     public User enrollStudentInSubject(@PathVariable Long studentId, @PathVariable Long subjectId) {
         return customUserService.enrollStudentInSubject(studentId, subjectId);
     }
-     @GetMapping("/{studentId}/subjects")
+     @GetMapping("/{studentId}/subjects/enrolled")
     public StudentSubjectsDTO getStudentSubjects(@PathVariable Long studentId) {
         return customUserService.getStudentSubjects(studentId);
     }
